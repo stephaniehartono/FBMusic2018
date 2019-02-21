@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">FlashBackMusic</string>
+    <string name="title_activity_play_song">PlaySong</string>
+    <string name="sign_in_msg">Sign in here!</string>
+    <string name="clientID">1026651558270-h5jgeq0dufdsdlbt0o6hd9njc64pqt72.apps.googleusercontent.com</string>
+    <string name="clientSecret">okj79irmizyXSRTr8H0XltaO</string>
+    <string name="title_activity_time">TimeActivity</string>
+
+    <string-array name="sortList">
+        <item>Song title</item>
+        <item>Album</item>
+        <item>Artist</item>
+        <item>Favorites</item>
+    </string-array>
+
+    <string name="title_activity_album_sort">AlbumSortActivity</string>
+    <string name="title_activity_artist_sort">ArtistSortActivity</string>
+    <string name="title_activity_favorite_sort">FavoriteSortActivity</string>
+    <string name="title_activity_title_sort">TitleSortActivity</string>
+
+
+</resources>

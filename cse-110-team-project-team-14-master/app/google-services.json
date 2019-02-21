@@ -1,0 +1,75 @@
+{
+  "project_info": {
+    "project_number": "1026651558270",
+    "firebase_url": "https://cse-110-team-project-team-14.firebaseio.com",
+    "project_id": "cse-110-team-project-team-14",
+    "storage_bucket": "cse-110-team-project-team-14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026651558270:android:90af785ad04a2f62",
+        "android_client_info": {
+          "package_name": "comcse_110_winter_2018cse_110_team_project_team_14.httpsgithub.flashbackmusic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026651558270-qunb5krk8tpt9rm8bv3tjhc2qs52sif5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "comcse_110_winter_2018cse_110_team_project_team_14.httpsgithub.flashbackmusic",
+            "certificate_hash": "0965ec01ac917e6653383251458c1c7a49c93e74"
+          }
+        },
+        {
+          "client_id": "1026651558270-1560chj8h7b8u8vru6j6740v5mpglv1b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "comcse_110_winter_2018cse_110_team_project_team_14.httpsgithub.flashbackmusic",
+            "certificate_hash": "67c6ced21200f0efeab71ff48e42742b8d3d0fe2"
+          }
+        },
+        {
+          "client_id": "1026651558270-e8djca8kln2a6cjdvb15sghu1cbmun5q.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1026651558270-ho35fdipudg0oqsdp16etfpb7nkdh0e1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "comcse_110_winter_2018cse_110_team_project_team_14.httpsgithub.flashbackmusic",
+            "certificate_hash": "add82b1268cc9fdaac459a7ada48fdbe0fdaeed0"
+          }
+        },
+        {
+          "client_id": "1026651558270-h5jgeq0dufdsdlbt0o6hd9njc64pqt72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8wgkBSRyB04cxsXS-LNAVSfAnGEBtic8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026651558270-e8djca8kln2a6cjdvb15sghu1cbmun5q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

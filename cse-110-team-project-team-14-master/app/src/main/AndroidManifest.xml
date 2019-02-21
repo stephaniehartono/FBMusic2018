@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="comcse_110_winter_2018cse_110_team_project_team_14.httpsgithub.flashbackmusic">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MusicPlayer" />
+        <activity android:name=".AlbumActivity" />
+        <activity android:name=".AlbumPlayer" />
+        <activity android:name=".DownloadActivity" />
+        <activity android:name=".SignInActivity" />
+        <activity
+            android:name=".TimeActivity"
+            android:label="@string/title_activity_time"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AlbumSortActivity"
+            android:label="@string/title_activity_album_sort"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ArtistSortActivity"
+            android:label="@string/title_activity_artist_sort"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FavoriteSortActivity"
+            android:label="@string/title_activity_favorite_sort"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TitleSortActivity"
+            android:label="@string/title_activity_title_sort"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

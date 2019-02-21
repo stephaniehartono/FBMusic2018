@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="comcse_110_winter_2018cse_110_team_project_team_14.httpsgithub.flashbackmusic.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flashback Music"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:textStyle="italic|bold"
+            android:textSize="25sp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_margin="5dp">
+
+            <ImageButton
+                android:id="@+id/logout"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/logout"
+                android:layout_alignParentLeft="true" />
+
+            <ToggleButton
+                android:id="@+id/vibeToggle"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/logout"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textOff="NORMAL"
+                android:textOn="VIBE"
+                android:textSize="15sp"/>
+
+            <ImageButton
+                android:id="@+id/clock"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/clock"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/dropDown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/musicList"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/goToSongs"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.33"
+            android:background="#acacac"
+            android:text="All Songs"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/goToAlbums"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.33"
+            android:background="#bcbcbc"
+            android:text="Albums"
+            android:textAllCaps="false" />
+
+
+        <Button
+            android:id="@+id/goToDownload"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.34"
+            android:background="#bcbcbc"
+            android:text="Download"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+</RelativeLayout>

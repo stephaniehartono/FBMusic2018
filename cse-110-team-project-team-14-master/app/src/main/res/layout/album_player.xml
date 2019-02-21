@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="comcse_110_winter_2018cse_110_team_project_team_14.httpsgithub.flashbackmusic.AlbumPlayer">
+
+<LinearLayout
+    android:layout_marginTop="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/albumImage"
+        android:layout_width="0dp"
+        android:layout_weight="0.4"
+        android:layout_height="wrap_content"
+        android:src="@drawable/album"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titleAlbum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Album Name"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:autoSizeTextType="uniform"/>
+
+    <TextView
+        android:id="@+id/artistAlbum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="13sp"
+        android:text="Artist Name"/>
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:weightSum="1">
+
+    <ImageButton
+        android:id="@+id/playAlbumButton"
+        android:layout_width="0dp"
+        android:layout_weight="0.09"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:src="@drawable/play"
+        android:background="#fff"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <ListView
+            android:layout_marginTop="10dp"
+            android:id="@+id/albumSongListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+</LinearLayout>
+
+</LinearLayout>
